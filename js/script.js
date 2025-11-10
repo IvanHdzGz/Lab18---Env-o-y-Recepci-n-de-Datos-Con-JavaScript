@@ -62,7 +62,7 @@ async function buscarEmpleado() {
       document.getElementById("respuesta").innerHTML = `
         Clave del cliente: ${data.clave}<br>
         Nombre: ${data.nombre}<br>
-        Apellido: ${data.puesto}<br>
+        Puesto: ${data.puesto}<br>
         Salario: ${data.salario}<br>`;
     }
   } catch (error) {
